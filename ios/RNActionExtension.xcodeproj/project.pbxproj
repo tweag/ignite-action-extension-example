@@ -35,6 +35,9 @@
 		8CED567B30264C8EB417F346 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98EA76F4349B41D8936C3E70 /* SimpleLineIcons.ttf */; };
 		B08F654861AA475BABEE6460 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41E3BB3624D4EA2ABFED4CD /* libRNDeviceInfo.a */; };
 		B1ABA1B7A1FA48F2AFE6B096 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C4F5F1355C4D6A83DAC9F6 /* FontAwesome.ttf */; };
+		CD42506B1E2AE6B200C8CB8F /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */; };
+		CD42506E1E2AE6B200C8CB8F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD42506C1E2AE6B200C8CB8F /* MainInterface.storyboard */; };
+		CD4250721E2AE6B200C8CB8F /* Our Action Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD4250671E2AE6B100C8CB8F /* Our Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D54A030EFD0745F3812F8CDF /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C82034E80A34428E9923F58F /* EvilIcons.ttf */; };
 		E96E1B12FC884791A2DDB514 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D3566F5B024860ADE02A08 /* libRNVectorIcons.a */; };
 		FEA521EC247245BE93F33E47 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD01CEAB659640C7B8DE18E0 /* MaterialIcons.ttf */; };
@@ -223,7 +226,28 @@
 			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
 			remoteInfo = RNVectorIcons;
 		};
+		CD4250701E2AE6B200C8CB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4250661E2AE6B100C8CB8F;
+			remoteInfo = "Our Action Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD4250761E2AE6B200C8CB8F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD4250721E2AE6B200C8CB8F /* Our Action Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -263,6 +287,11 @@
 		C12E96E5020241B399142CFE /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
 		C7C8BDCDC02C4E0184D901E3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		C82034E80A34428E9923F58F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		CD4250671E2AE6B100C8CB8F /* Our Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Our Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4250691E2AE6B200C8CB8F /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		CD42506D1E2AE6B200C8CB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CD42506F1E2AE6B200C8CB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1FBF4CCD5324522924AB7CC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		DD01CEAB659640C7B8DE18E0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		E41E3BB3624D4EA2ABFED4CD /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
@@ -298,6 +327,13 @@
 				784CAE7B81B4459DB57B30B3 /* libRNI18n.a in Frameworks */,
 				1495F92AC0F848CF9A7E57A4 /* libAirMaps.a in Frameworks */,
 				E96E1B12FC884791A2DDB514 /* libRNVectorIcons.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4250641E2AE6B100C8CB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +512,7 @@
 				13B07FAE1A68108700A75B9A /* RNActionExtension */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNActionExtensionTests */,
+				CD4250681E2AE6B200C8CB8F /* Our Action Extension */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				7B204D14B7F04DAD9B65086E /* Resources */,
 			);
@@ -488,6 +525,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* RNActionExtension.app */,
 				00E356EE1AD99517003FC87E /* RNActionExtensionTests.xctest */,
+				CD4250671E2AE6B100C8CB8F /* Our Action Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -533,6 +571,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD4250681E2AE6B200C8CB8F /* Our Action Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD4250691E2AE6B200C8CB8F /* ActionViewController.h */,
+				CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */,
+				CD42506C1E2AE6B200C8CB8F /* MainInterface.storyboard */,
+				CD42506F1E2AE6B200C8CB8F /* Info.plist */,
+			);
+			path = "Our Action Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -562,15 +611,34 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CD4250761E2AE6B200C8CB8F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD4250711E2AE6B200C8CB8F /* PBXTargetDependency */,
 			);
 			name = RNActionExtension;
 			productName = "Hello World";
 			productReference = 13B07F961A680F5B00A75B9A /* RNActionExtension.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CD4250661E2AE6B100C8CB8F /* Our Action Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4250731E2AE6B200C8CB8F /* Build configuration list for PBXNativeTarget "Our Action Extension" */;
+			buildPhases = (
+				CD4250631E2AE6B100C8CB8F /* Sources */,
+				CD4250641E2AE6B100C8CB8F /* Frameworks */,
+				CD4250651E2AE6B100C8CB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Our Action Extension";
+			productName = "Our Action Extension";
+			productReference = CD4250671E2AE6B100C8CB8F /* Our Action Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -584,6 +652,10 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					CD4250661E2AE6B100C8CB8F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -668,6 +740,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* RNActionExtension */,
 				00E356ED1AD99517003FC87E /* RNActionExtensionTests */,
+				CD4250661E2AE6B100C8CB8F /* Our Action Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -876,6 +949,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD4250651E2AE6B100C8CB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD42506E1E2AE6B200C8CB8F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -913,6 +994,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD4250631E2AE6B100C8CB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD42506B1E2AE6B200C8CB8F /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -920,6 +1009,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* RNActionExtension */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		CD4250711E2AE6B200C8CB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4250661E2AE6B100C8CB8F /* Our Action Extension */;
+			targetProxy = CD4250701E2AE6B200C8CB8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -931,6 +1025,14 @@
 			);
 			name = LaunchScreen.xib;
 			path = RNActionExtension;
+			sourceTree = "<group>";
+		};
+		CD42506C1E2AE6B200C8CB8F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD42506D1E2AE6B200C8CB8F /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1112,6 +1214,44 @@
 			};
 			name = Release;
 		};
+		CD4250741E2AE6B200C8CB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Our Action Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNActionExtension.Our-Action-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD4250751E2AE6B200C8CB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Our Action Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNActionExtension.Our-Action-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1141,6 +1281,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CD4250731E2AE6B200C8CB8F /* Build configuration list for PBXNativeTarget "Our Action Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4250741E2AE6B200C8CB8F /* Debug */,
+				CD4250751E2AE6B200C8CB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
