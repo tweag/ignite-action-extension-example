@@ -38,6 +38,22 @@
 		CD42506B1E2AE6B200C8CB8F /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */; };
 		CD42506E1E2AE6B200C8CB8F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD42506C1E2AE6B200C8CB8F /* MainInterface.storyboard */; };
 		CD4250721E2AE6B200C8CB8F /* Our Action Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD4250671E2AE6B100C8CB8F /* Our Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD4250771E2AE76B00C8CB8F /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250321E2AE53F00C8CB8F /* libAirMaps.a */; };
+		CD4250781E2AE76B00C8CB8F /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		CD4250791E2AE76B00C8CB8F /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		CD42507A1E2AE76B00C8CB8F /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		CD42507B1E2AE76B00C8CB8F /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		CD42507C1E2AE76B00C8CB8F /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		CD42507D1E2AE76B00C8CB8F /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		CD42507E1E2AE76B00C8CB8F /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		CD42507F1E2AE76B00C8CB8F /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		CD4250801E2AE76B00C8CB8F /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		CD4250811E2AE76B00C8CB8F /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		CD4250821E2AE76B00C8CB8F /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		CD4250831E2AE76B00C8CB8F /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250561E2AE53F00C8CB8F /* libReactNativeConfig.a */; };
+		CD4250841E2AE76B00C8CB8F /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250591E2AE53F00C8CB8F /* libRNDeviceInfo.a */; };
+		CD4250851E2AE76B00C8CB8F /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD42505D1E2AE53F00C8CB8F /* libRNI18n.a */; };
+		CD4250861E2AE76B00C8CB8F /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250621E2AE53F00C8CB8F /* libRNVectorIcons.a */; };
 		D54A030EFD0745F3812F8CDF /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C82034E80A34428E9923F58F /* EvilIcons.ttf */; };
 		E96E1B12FC884791A2DDB514 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D3566F5B024860ADE02A08 /* libRNVectorIcons.a */; };
 		FEA521EC247245BE93F33E47 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD01CEAB659640C7B8DE18E0 /* MaterialIcons.ttf */; };
@@ -334,6 +350,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4250791E2AE76B00C8CB8F /* libRCTAnimation.a in Frameworks */,
+				CD4250821E2AE76B00C8CB8F /* libReact.a in Frameworks */,
+				CD4250781E2AE76B00C8CB8F /* libRCTActionSheet.a in Frameworks */,
+				CD42507A1E2AE76B00C8CB8F /* libRCTGeolocation.a in Frameworks */,
+				CD42507B1E2AE76B00C8CB8F /* libRCTImage.a in Frameworks */,
+				CD42507C1E2AE76B00C8CB8F /* libRCTLinking.a in Frameworks */,
+				CD42507D1E2AE76B00C8CB8F /* libRCTNetwork.a in Frameworks */,
+				CD42507E1E2AE76B00C8CB8F /* libRCTSettings.a in Frameworks */,
+				CD42507F1E2AE76B00C8CB8F /* libRCTText.a in Frameworks */,
+				CD4250801E2AE76B00C8CB8F /* libRCTVibration.a in Frameworks */,
+				CD4250811E2AE76B00C8CB8F /* libRCTWebSocket.a in Frameworks */,
+				CD4250831E2AE76B00C8CB8F /* libReactNativeConfig.a in Frameworks */,
+				CD4250841E2AE76B00C8CB8F /* libRNDeviceInfo.a in Frameworks */,
+				CD4250851E2AE76B00C8CB8F /* libRNI18n.a in Frameworks */,
+				CD4250771E2AE76B00C8CB8F /* libAirMaps.a in Frameworks */,
+				CD4250861E2AE76B00C8CB8F /* libRNVectorIcons.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
