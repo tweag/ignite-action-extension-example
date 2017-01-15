@@ -1,12 +1,12 @@
 // @flow
 
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles, Colors, Fonts } from '../../Themes/'
+import { ApplicationStyles, Colors, Fonts, Metrics } from '../../Themes/'
 
 export default StyleSheet.create({
-  ...ApplicationStyles.screen,
   container: {
     ...ApplicationStyles.screen.container,
+    flex: 1,
     backgroundColor: Colors.silver,
     justifyContent: 'center',
     alignItems: 'center',
@@ -15,5 +15,9 @@ export default StyleSheet.create({
     color: Colors.charcoal,
     textAlign: 'center',
     ...Fonts.style.h2
+  },
+  button: {
+    paddingTop: 2 * Metrics.doubleBaseMargin,
+    width: Metrics.screenWidth,
   }
 })
