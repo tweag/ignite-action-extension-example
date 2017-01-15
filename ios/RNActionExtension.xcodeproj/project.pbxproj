@@ -1329,6 +1329,7 @@
 				CD4250751E2AE6B200C8CB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
