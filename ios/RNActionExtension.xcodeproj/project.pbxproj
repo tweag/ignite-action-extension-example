@@ -54,6 +54,9 @@
 		CD4250841E2AE76B00C8CB8F /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250591E2AE53F00C8CB8F /* libRNDeviceInfo.a */; };
 		CD4250851E2AE76B00C8CB8F /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD42505D1E2AE53F00C8CB8F /* libRNI18n.a */; };
 		CD4250861E2AE76B00C8CB8F /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4250621E2AE53F00C8CB8F /* libRNVectorIcons.a */; };
+		CDA1C4881E2C01C000719DF3 /* ActionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1C4871E2C01C000719DF3 /* ActionExtension.m */; };
+		CDA1C4891E2C027F00719DF3 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */; };
+		CDA1C48A1E2C040900719DF3 /* ActionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1C4871E2C01C000719DF3 /* ActionExtension.m */; };
 		D54A030EFD0745F3812F8CDF /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C82034E80A34428E9923F58F /* EvilIcons.ttf */; };
 		E96E1B12FC884791A2DDB514 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D3566F5B024860ADE02A08 /* libRNVectorIcons.a */; };
 		FEA521EC247245BE93F33E47 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD01CEAB659640C7B8DE18E0 /* MaterialIcons.ttf */; };
@@ -308,6 +311,8 @@
 		CD42506A1E2AE6B200C8CB8F /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		CD42506D1E2AE6B200C8CB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		CD42506F1E2AE6B200C8CB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA1C46D1E2C01A100719DF3 /* ActionExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ActionExtension.h; path = RNActionExtension/ActionExtension.h; sourceTree = "<group>"; };
+		CDA1C4871E2C01C000719DF3 /* ActionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionExtension.m; path = RNActionExtension/ActionExtension.m; sourceTree = "<group>"; };
 		D1FBF4CCD5324522924AB7CC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		DD01CEAB659640C7B8DE18E0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		E41E3BB3624D4EA2ABFED4CD /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
@@ -459,6 +464,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				CDA1C46D1E2C01A100719DF3 /* ActionExtension.h */,
+				CDA1C4871E2C01C000719DF3 /* ActionExtension.m */,
 			);
 			name = RNActionExtension;
 			sourceTree = "<group>";
@@ -1021,8 +1028,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA1C4891E2C027F00719DF3 /* ActionViewController.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				CDA1C4881E2C01C000719DF3 /* ActionExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,6 +1039,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA1C48A1E2C040900719DF3 /* ActionExtension.m in Sources */,
 				CD42506B1E2AE6B200C8CB8F /* ActionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

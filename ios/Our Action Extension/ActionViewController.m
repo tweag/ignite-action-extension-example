@@ -17,6 +17,8 @@
 
 @end
 
+ActionViewController * actionViewController = nil;
+
 @implementation ActionViewController
 
 - (void)loadView {
@@ -31,6 +33,7 @@
                                                      launchOptions:nil];
     rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
     self.view = rootView;
+    actionViewController = self;
   }
 
 - (void)didReceiveMemoryWarning {
@@ -38,10 +41,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)done {
+- (void)done {
     // Return any edited content to the host app.
     // This template doesn't do anything, so we just echo the passed in items.
     [self.extensionContext completeRequestReturningItems:self.extensionContext.inputItems completionHandler:nil];
+    actionViewController = nil;
 }
 
 @end
