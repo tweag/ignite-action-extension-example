@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import '../I18n/I18n' // keep before root container
+import ActionExtensionScreen from './ActionExtensionScreen'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
 import applyConfigSettings from '../Config'
@@ -22,10 +23,19 @@ const store = createStore()
  * We separate like this to play nice with React Native's hot reloading.
  */
 class App extends Component {
+  static propTypes = {
+    isActionExtension: React.PropTypes.bool
+  }
+
+  static defaultProps = {
+    isActionExtension: false
+  }
+
   render () {
+    const component = this.props.isActionExtension ? <ActionExtensionScreen /> : <RootContainer />
     return (
       <Provider store={store}>
-        <RootContainer />
+        { component }
       </Provider>
     )
   }
